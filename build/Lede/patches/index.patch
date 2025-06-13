@@ -1,0 +1,17 @@
+diff --git a/package/lean/autocore/files/x86/index.htm b/package/lean/autocore/files/x86/index.htm
+index 0f61c93..f4c0791 100644
+--- a/package/lean/autocore/files/x86/index.htm
++++ b/package/lean/autocore/files/x86/index.htm
+@@ -751,6 +751,13 @@
+ 	</table>
+ </fieldset>
+ 
++<fieldset class="cbi-section">
++	<div style="display: flex; justify-content: flex-start; gap: 10px;">
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:更新教程%>" onclick="window.open('https://github.com/zuifengguai/ZUIKE-OpenWrt')" />
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>" onclick="window.open('https://github.com/zuifengguai/ZUIKE-OpenWrt/releases')" />
++	</div>
++</fieldset>
++
+ <fieldset class="cbi-section">
+ 	<legend><%:Memory%></legend>
