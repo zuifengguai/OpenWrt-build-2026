@@ -222,6 +222,14 @@ CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-pushbot=y
 CONFIG_PACKAGE_luci-app-ramfree=y
+#二次加入
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+PACKAGES="$PACKAGES luci-app-openclash"
+PACKAGES="$PACKAGES luci-app-argon-config"
+PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+PACKAGES="$PACKAGES luci-app-filetransfer"
+PACKAGES="$PACKAGES luci-i18n-filetransfer-zh-cn"
+PACKAGES="$PACKAGES luci-app-store"
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS is not set
